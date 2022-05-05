@@ -6,7 +6,7 @@ module.exports = {
   SupportServer: "https://discord.gg/ugwAf7TSS8", //Support Server Link
   Token:
     process.env.Token ||
-    "ODk0MjExMjkwMTgzMTEwNzA2.YVmtKQ.2Mw0BZH7h_1zacCkdb_9M_cleLY", //Discord Bot Token
+    "ODk0MjExMjkwMTgzMTEwNzA2.GTfc0H.Np1d2LlTQDOIFhCebfy-d6Ng-tvqgpT578zjOc", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "894211290183110706", //Discord Client ID
   ClientSecret:
     process.env.Discord_ClientSecret || "f9AsAsoBYI0WZKAa85I0JGxzAL84JGYO", //Discord Client Secret
