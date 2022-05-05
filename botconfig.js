@@ -2,11 +2,11 @@ module.exports = {
   Admins: ["902155150620262472", "216512231679066114"], //Admins of the bot
   ExpressServer: true, //If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || "-", //Default prefix, Server Admins can change the prefix
-  Port: 3000, //Which port website gonna be hosted
+  Port: 8080, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/ugwAf7TSS8", //Support Server Link
   Token:
     process.env.Token ||
-    "ODk0MjExMjkwMTgzMTEwNzA2.YVmtKQ.BSjrwUD-ngSfY054dpHxHw5KmFY", //Discord Bot Token
+    "ODk0MjExMjkwMTgzMTEwNzA2.YVmtKQ.2Mw0BZH7h_1zacCkdb_9M_cleLY", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "894211290183110706", //Discord Client ID
   ClientSecret:
     process.env.Discord_ClientSecret || "f9AsAsoBYI0WZKAa85I0JGxzAL84JGYO", //Discord Client Secret
@@ -20,8 +20,7 @@ module.exports = {
     "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   EmbedColor: "RANDOM", //Color of most embeds | Dont edit unless you want a specific color instead of a random one each time
   Permissions: 2205281600, //Bot Inviting Permissions
-  Website:
-    process.env.Website || "https://Sayu-bot-music-discord.neonddroid.repl.co", //Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
+  Website: process.env.Website || "localhost", //Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
   //If you get invalid oauth, make sure on the discord developer page you set the oauth url to something like: https://example.com/api/callback.
 
   Presence: {
